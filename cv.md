@@ -55,6 +55,39 @@ I am a dedicated student who loves to learn and is passionate about acquiring ne
 * Office Suite
     + MS Excel | MS Word | PowerPoint
 
+## **DIGITAL SKILLS**
+
+* Web Development
+    + HTMl & CSS | Basic knowledge of WordPress
+* Programming Languages
+    + JavaScript | C++
+* Database
+    + MySQL
+* Office Suite
+    + MS Excel | MS Word | PowerPoint
+
+## **COMMUNICATION AND INTERPERSONAL SKILLS**
+
+**Adaptability, Empathy, Networking, Time Management**
+
+* Adaptability:
+    + My time at TUMO for five years taught me to handle different challenges and make new
+    friends. When I moved to the IT company, I learned to adjust to new situations. I can work
+    well in various environments.
+* Empathy:
+    + I can easily understand and connec with people. I've made friends with people from many
+    different backgrounds. I can easily relate to and support people from all walks of life, and
+    this has helped me build a diverse group of friends.
+* Networking:
+    + I've learned that working with a team can be very valuable, whether at TUMO or in the IT
+    company. I'm good at collaborating with others to achieve common goals. Building a
+    network of connections has been a great benefit to both my personal and professional
+    life.
+* Time Management:
+    + I've had experience balancing work and studying at the same time. This has taught me
+    how to prioritize tasks, meet deadlines, and be more efficient. Managing my time well has
+    allowed me to do well in both work and study, showing my skill in time management.
+
 ## **LANGUAGE SKILLS**
 
 * Native Armenian
