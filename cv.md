@@ -55,16 +55,6 @@ I am a dedicated student who loves to learn and is passionate about acquiring ne
 * Office Suite
     + MS Excel | MS Word | PowerPoint
 
-## **DIGITAL SKILLS**
-
-* Web Development
-    + HTMl & CSS | Basic knowledge of WordPress
-* Programming Languages
-    + JavaScript | C++
-* Database
-    + MySQL
-* Office Suite
-    + MS Excel | MS Word | PowerPoint
 
 ## **COMMUNICATION AND INTERPERSONAL SKILLS**
 
