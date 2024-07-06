@@ -1,0 +1,45 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #222A13;
+}
+a {
+    color: #222A13;
+}
+
+body{
+    width: 100%;
+}
+main, header{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1em;
+}
+header ul>li{
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 6px;
+}
+img{
+    padding: 5px;
+}
+section{
+    background-color: #B5CA8D;
+    padding: 25px 50px;
+    margin: 10px 0;
+}
+
+section h3{
+    text-transform: capitalize;
+}
+
+section ul{
+    list-style-image: url(https://img.icons8.com/?size=25&id=33619&format=png&color=000000);
+}
+
+section ul>li{
+    line-height: 1.2em;
+}
+section ul>li>ul{
+    list-style-type: square;
+    list-style-image: none;
+}
