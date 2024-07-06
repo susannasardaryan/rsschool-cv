@@ -33,7 +33,7 @@ section h3{
 }
 
 section ul{
-    list-style-image: url(https://img.icons8.com/?size=25&id=33619&format=png&color=000000);
+    list-style-image: url(https://img.icons8.com/?size=25&amp;id=33619&format=png&amp;color=000000);
 }
 
 section ul>li{
