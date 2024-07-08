@@ -143,6 +143,7 @@ nav {
     display: block;
     margin: 0 auto 40px;
 }
+
 /* Code Example */
 code {
     display: block;
@@ -163,12 +164,14 @@ code {
     align-items: center;
     justify-content: space-between;
   }
-
 .about-img{
-    border-radius: 5px;
     margin: auto;
-    background: white;
-    width: 350px;
+}
+.about-img img{
+    border-radius: 5rem;  
+    box-shadow: 5px 5px 15px rgb(189 186 177);
+    /* background: white; */
+    width: 235px;
 }
 .about-text{
     margin: auto;
@@ -187,6 +190,8 @@ code {
 
 .list-item{
     width: 100%;
+    display: flex;
+    flex-direction: column;
     background: white;
     border: 1px solid;
     color: black;
@@ -216,8 +221,7 @@ code {
 
 .date {
     font-weight: 400;
-    position: relative;
-    left: 85%;
+    width: 30%;
     border: 1px solid grey;
     border-radius: 3px;
     padding: 2px 5px;
@@ -250,29 +254,33 @@ code {
 .contact-list{
     display: flex;
     flex-direction: row; 
+    flex-wrap: wrap;
     padding: 15px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .contact-item{
     padding: 5px 25px;
+    margin: 5px;
     border: 1px solid darkgrey;
     display: flex;
+    width: 250px;
     border-radius: 15px;
     box-shadow: 5px 3px 3px grey ;
 }
 .contact-item-img{
     margin: auto;
-    
 }
-
 
 .contact-item-text{
     margin-left: 20px;
 }
 
 .contact-item-text>p{
-    font-weight: 300
+    font-weight: 300;
+}
+.contact-item-text>h4{
+    margin: 10px 0;
 }
 
 /* Footer section */
@@ -300,4 +308,40 @@ footer{
 .time{
     font-weight: bold;
     text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .header-list{
+        flex-direction: row-reverse;
+        margin-right: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .about-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .skill-list{
+        flex-direction: column;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .skill-list-item{
+        margin: 5px;
+        width: 80%;
+    }
+
+    .language-list{
+        flex-direction: column;
+        padding: 15px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:790px){
+    .header-list{
+        display: none;
+    }
 }
