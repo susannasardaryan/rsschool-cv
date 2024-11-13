@@ -13,6 +13,7 @@ body {
 
 a {
     color: #222A13;
+    text-decoration: none;
 }
 
 ul {
@@ -49,7 +50,7 @@ nav {
 
 .logo {
     display: flex;
-    
+
 }
 
 .logo>img {
@@ -82,7 +83,7 @@ nav {
 /* Hero section */
 .hero{
     display: flex;
-    
+
 }
 .hero-text{
     display: flex;
@@ -103,12 +104,12 @@ nav {
 
 .hero-text-outlined{
     font-weight: bold;
-    color: white; 
-    text-shadow: 
-    -2px -2px 0 #000,  
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
     2px -2px 0 #000,
     -2px 2px 0 #000,
-    2px 2px 0 #000; 
+    2px 2px 0 #000;
 }
 
 .hero-text-thin{
@@ -127,7 +128,7 @@ nav {
 }
 
 .skill-list-item{
-    border: 2px solid; 
+    border: 2px solid;
     border-radius: 3px;
     width: 160px;
     padding: 25px 24px;
@@ -145,17 +146,35 @@ nav {
 }
 
 /* Code Example */
-code {
-    display: block;
-    white-space: pre;
-    background-color: #f4f4f4;
+#my-projects{
+    padding: 5px 50px;
+}
+.my-projects-list{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    flex-direction: column;
+}
+.my-projects-list li{
+    min-width: 250px;
+    border: 2px solid;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 500;
+    transition: box-shadow 0.2s;
+
     padding: 10px;
-    border-radius: 15px;
-    overflow-x: auto;
-    font-size: 15px;
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    border-radius: 10px;
 }
 
+.my-projects-list li:hover{
+    cursor: pointer;
+    box-shadow: 5px 2px 2px black ;
+    /* transform: translate(1px, 1px); */
+}
 
 /* About section */
 .about-container {
@@ -168,7 +187,7 @@ code {
     margin: auto;
 }
 .about-img img{
-    border-radius: 5rem;  
+    border-radius: 5rem;
     box-shadow: 5px 5px 15px rgb(189 186 177);
     /* background: white; */
     width: 235px;
@@ -185,7 +204,7 @@ code {
     display: flex;
     flex-direction: column;
     padding: 3px;
-    
+
 }
 
 .list-item{
@@ -228,7 +247,7 @@ code {
     box-shadow: 5px 3px 3px grey ;
 
   }
-  
+
 /* Language section */
 .language-list{
     display: flex;
@@ -253,7 +272,7 @@ code {
 
 .contact-list{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     flex-wrap: wrap;
     padding: 15px;
     justify-content: space-evenly;
@@ -288,10 +307,11 @@ footer{
     padding: 5px;
     margin: 0;
 }
-.footer-container{ 
+.footer-container{
     border-top:1px solid ;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer-container>.logo>img{
@@ -299,12 +319,6 @@ footer{
     height: 30px;
 }
 
-.rsschool{
-    margin-top: 15px;
-}
-.rsschool>a>img{
-    width: 100px;
-}
 .time{
     font-weight: bold;
     text-align: center;
